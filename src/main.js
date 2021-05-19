@@ -9,14 +9,14 @@ import { registerMicroApps, start } from 'qiankun';
 registerMicroApps([
   {
     name: 'vue2',
-    // entry: '//localhost:8081',
+    // entry: '//localhost:7101',
     entry: '//qiankun-vue2.vercel.app/',
     container: '#app_container',
     activeRule: '/vue2',
   },
   {
     name: 'vue3',
-    // entry: '//localhost:7101',
+    // entry: '//localhost:8081',
     entry: '//qiankun-vue3.vercel.app/',
     container: '#app_container',
     activeRule: '/vue3',

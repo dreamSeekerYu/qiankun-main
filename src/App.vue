@@ -1,8 +1,7 @@
 <template>
   <div id="nav">
-    <a href="/app1">app1</a> |
-    <router-link to="/vue">vue</router-link> | 
-    <router-link to="/blog">blog(vuepress)</router-link>
+    <a href="/vue2">vue2</a> | <router-link to="/vue2">vue2</router-link> |
+    <router-link to="/vue3">vue3</router-link>
   </div>
   <router-view />
 </template>
