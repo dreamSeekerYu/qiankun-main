@@ -8,18 +8,18 @@ import { registerMicroApps, start } from 'qiankun';
 
 registerMicroApps([
   {
-    name: 'app1',
-    entry: '//localhost:8081',
-    // entry: '//dream-seeker-yu-github-io.vercel.app/',
+    name: 'vue2',
+    // entry: '//localhost:8081',
+    entry: '//qiankun-vue2.vercel.app/',
     container: '#app_container',
-    activeRule: '/app1',
+    activeRule: '/vue2',
   },
   {
-    name: 'vue',
+    name: 'vue3',
     // entry: '//localhost:7101',
-    entry: '/vue',
+    entry: '//qiankun-vue3.vercel.app/',
     container: '#app_container',
-    activeRule: '/vue',
+    activeRule: '/vue3',
   },
   // {
   //   name: 'blog',
